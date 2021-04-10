@@ -1,5 +1,5 @@
 body {
-  width: 997px;
+  width: 1200px;
   position: relative;
   text-align: center;
 }
@@ -9,6 +9,7 @@ body {
   border: 1px solid black;
   color: whitesmoke;
   max-width: 60px;
+  position: relative;
 }
 
 #section2 {
@@ -55,3 +56,37 @@ body {
   left: 800px;
   top: -600px;
 }
+
+/* Computer screens */
+@media screen and (min-width: 992px) and (max-width: 1460px) {
+  body {
+    background-color: grey;
+  }
+
+  
+
+
+
+
+}
+
+
+/* Tablet screens */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: blue;
+  }
+
+
+}
+
+/* Phone screens */
+
+@media screen and (min-width: 400px) and (max-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+
+
+}
+
