@@ -16,8 +16,10 @@ body {
   border: 1px solid black;
   color: whitesmoke;
   max-width: 60px;
-  position: absolute;
+  position: relative;
   float: right;
+  top: 0;
+  right: 0;
 }
 
 #section2 {
