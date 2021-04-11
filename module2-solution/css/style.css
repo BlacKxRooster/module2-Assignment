@@ -16,7 +16,8 @@ body {
   border: 1px solid black;
   color: whitesmoke;
   max-width: 60px;
-  position: relative;
+  position: absolute;
+  float: right;
 }
 
 #section2 {
