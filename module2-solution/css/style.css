@@ -102,6 +102,7 @@ body {
   body {
     background-color: blue;
     width: 800px;
+    overflow-x: hidden;
   }
 
   .rice {
@@ -145,6 +146,7 @@ body {
   body {
     background-color: yellow;
     width: 700px;
+    overflow-x: hidden;
   }
 
   .rice {
