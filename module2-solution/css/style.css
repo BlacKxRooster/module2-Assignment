@@ -1,9 +1,8 @@
 header {
   text-align: center;
   text-decoration: underline;
-  text-shadow: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 
 body {
   text-align: center;
@@ -22,6 +21,7 @@ p {
   color: whitesmoke;
   max-width: 60px;
   position: relative;
+  left: 40px;
 }
 
 #section2 {
