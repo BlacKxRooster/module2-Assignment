@@ -87,7 +87,7 @@ p {
 }
 
 /* Computer screens */
-@media screen and (min-width: 992px) and (max-width: 3260px) {
+@media screen and (min-width: 992px) {
   body {
     background-color: grey;
     margin: 0;
