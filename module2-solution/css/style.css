@@ -1,7 +1,7 @@
 body {
-  width: 1200px;
   position: relative;
   text-align: center;
+  overflow-x: hidden;
 }
 
 #section1 {
@@ -43,7 +43,7 @@ body {
   margin: 50px;
   position: relative;
   left: 400px;
-  top: -300px;
+  top: -295px;
 }
 
 .greenBeans {
@@ -54,20 +54,46 @@ body {
   margin: 50px;
   position: relative;
   left: 800px;
-  top: -600px;
+  top: -590px;
 }
 
 /* Computer screens */
 @media screen and (min-width: 992px) and (max-width: 1460px) {
   body {
     background-color: grey;
+    width: 1000px;
   }
 
+  .rice {
+    border: 1px solid black;
+    background-color: cornsilk;
+    width: 200px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+  }
   
-
-
-
-
+  .chicken {
+    border: 1px solid black;
+    background-color: pink;
+    width: 200px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+    left: 400px;
+    top: -290px;
+  }
+  
+  .greenBeans {
+    border: 1px solid black;
+    background-color: green;
+    width: 200px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+    left: 800px;
+    top: -585px;
+  } 
 }
 
 
@@ -75,7 +101,40 @@ body {
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
     background-color: blue;
+    width: 800px;
   }
+
+  .rice {
+    border: 1px solid black;
+    background-color: green;
+    width: 200px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+  }
+  
+  .chicken {
+    border: 1px solid black;
+    background-color: orangered;
+    width: 200px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+    left: 400px;
+    top: -293px;
+  }
+  
+  .greenBeans {
+    border: 1px solid black;
+    background-color: teal;
+    width: 560px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+    left: 0;
+    top: -290px;
+  }
+
 
 
 }
@@ -85,8 +144,39 @@ body {
 @media screen and (min-width: 400px) and (max-width: 767px) {
   body {
     background-color: yellow;
+    width: 700px;
   }
 
+  .rice {
+    border: 1px solid black;
+    background-color: cornsilk;
+    width: 200px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+  }
+  
+  .chicken {
+    border: 1px solid black;
+    background-color: pink;
+    width: 200px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  .greenBeans {
+    border: 1px solid black;
+    background-color: green;
+    width: 200px;
+    padding: 10px 80px 10px 80px;
+    margin: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+  } 
 
 }
 
