@@ -11,15 +11,17 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  text-align: center;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
 #section1 {
   background: rgba(97, 0, 0, 0.7);
   border: 1px solid black;
   color: whitesmoke;
-  max-width: 70px;
+  max-width: 60px;
   position: relative;
-  float: right;
-  top: 0;
-  right: 0;
 }
 
 #section2 {
