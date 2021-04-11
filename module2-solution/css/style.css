@@ -3,7 +3,12 @@ header {
   text-decoration: underline;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+html, body {
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+}
 body {
   text-align: center;
   background-color: antiquewhite;
@@ -15,28 +20,39 @@ p {
   font-family: Verdana, Tahoma, sans-serif;
 }
 
+/* section {
+  height: 278px;
+  position: relative;
+} */
+
 #section1 {
-  background: rgba(97, 0, 0, 0.7);
+  background: lightslategrey;
   border: 1px solid black;
   color: whitesmoke;
-  max-width: 60px;
+  width: 60px;
   position: relative;
   left: 219px;
   top: -30px;
 }
 
 #section2 {
-  background: rgba(0,0,0,0.7);
+  background: lightslategrey;
   border: 1px solid black;
   color: whitesmoke;
-  max-width: 75px;
+  width: 85px;
+  position: relative;
+  left: 194px;
+  top: -30px;
 }
 
 #section3 {
-  background: rgba(0,0,0,0.7);
+  background: lightslategrey;
   border: 1px solid black;
   color: whitesmoke;
-  max-width: 100px;
+  width: 80px;
+  position: relative;
+  left: 199px;
+  top: -30px;
 }
 
 .rice {
@@ -44,7 +60,7 @@ p {
   background-color: cornsilk;
   width: 200px;
   padding: 10px 80px 10px 80px;
-  margin: 50px;
+  /* margin: 50px; */
   position: relative;
 }
 
@@ -53,7 +69,7 @@ p {
   background-color: pink;
   width: 200px;
   padding: 10px 80px 10px 80px;
-  margin: 50px;
+  /* margin: 50px; */
   position: relative;
   left: 400px;
   top: -295px;
@@ -64,17 +80,20 @@ p {
   background-color: green;
   width: 200px;
   padding: 10px 80px 10px 80px;
-  margin: 50px;
+  /* margin: 50px; */
   position: relative;
   left: 800px;
-  top: -590px;
+  top: -588px;
 }
 
 /* Computer screens */
 @media screen and (min-width: 992px) and (max-width: 1460px) {
   body {
     background-color: grey;
-    width: 1000px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .rice {
@@ -84,6 +103,7 @@ p {
     padding: 10px 80px 10px 80px;
     margin: 50px;
     position: relative;
+    top: 60px;
   }
   
   .chicken {
@@ -105,22 +125,24 @@ p {
     margin: 50px;
     position: relative;
     left: 800px;
-    top: -585px;
+    top: -645px;
   } 
 }
 
 
 /* Tablet screens */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    background-color: blue;
-    width: 800px;
-    overflow-x: hidden;
+   body {
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin: auto;
   }
 
   .rice {
     border: 1px solid black;
-    background-color: green;
+    background-color: lightseagreen;
     width: 200px;
     padding: 10px 80px 10px 80px;
     margin: 50px;
@@ -129,13 +151,13 @@ p {
   
   .chicken {
     border: 1px solid black;
-    background-color: orangered;
+    background-color: lightsteelblue;
     width: 200px;
     padding: 10px 80px 10px 80px;
     margin: 50px;
     position: relative;
     left: 400px;
-    top: -293px;
+    top: -350px;
   }
   
   .greenBeans {
@@ -149,17 +171,20 @@ p {
     top: -290px;
   }
 
+    
 
 
 }
 
 /* Phone screens */
 
-@media screen and (min-width: 400px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   body {
-    background-color: yellow;
-    width: 700px;
-    overflow-x: hidden;
+    background-color: rgba(30, 71, 133, 0.87);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin: auto;
   }
 
   .rice {
@@ -194,4 +219,6 @@ p {
   } 
 
 }
+
+
 
